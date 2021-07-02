@@ -36,7 +36,6 @@ public class Consumer {
         //第三个参数要传入DefaultConsumer的实现类
         channel.basicConsume(RabbitConstant.QUEUE_HELLOWORLD, false, new Reciver(channel));
 
-
     }
 }
 

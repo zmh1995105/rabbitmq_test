@@ -9,11 +9,6 @@ import com.rabbitmq.client.Connection;
 import java.io.IOException;
 import java.util.concurrent.TimeoutException;
 
-/**
- * @author 白起老师
- *
- * 发送者
- */
 public class OrderSystem {
 
     public static void main(String[] args) throws IOException, TimeoutException {
