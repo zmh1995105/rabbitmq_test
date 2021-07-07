@@ -3,21 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="7640f44d-7040-4d67-b9c6-2a9f0695df41" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/spring-rabbitmq-consumers-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/spring-rabbitmq-consumers-basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/spring-rabbitmq-consumers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/spring-rabbitmq-consumers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/java/com/baiqi/rabbitmq/listener/FanoutListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/java/com/baiqi/rabbitmq/listener/FanoutListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/java/com/baiqi/rabbitmq/listener/SpringQueueListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/java/com/baiqi/rabbitmq/listener/SpringQueueListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/resources/rabbitmq.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/resources/rabbitmq.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/resources/spring-rabbitmq-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/src/main/resources/spring-rabbitmq-consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/target/classes/rabbitmq.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/target/classes/rabbitmq.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/target/classes/spring-rabbitmq-consumer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-consumers-basic/target/classes/spring-rabbitmq-consumer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/spring-rabbitmq-producers-basic.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/spring-rabbitmq-producers-basic.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/spring-rabbitmq-producers.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/spring-rabbitmq-producers.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/src/main/resources/rabbitmq.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/src/main/resources/rabbitmq.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/src/main/resources/spring-rabbitmq-producer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/src/main/resources/spring-rabbitmq-producer.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/src/test/java/com/baiqi/ProducerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/src/test/java/com/baiqi/ProducerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/target/classes/rabbitmq.properties" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/target/classes/rabbitmq.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/target/classes/spring-rabbitmq-producer.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-rabbitmq-producers-basic/target/classes/spring-rabbitmq-producer.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rabbitmq-consumer-spring-advanced/src/main/resources/rabbitmq.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rabbitmq-consumer-spring-advanced/src/main/resources/rabbitmq.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +17,6 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="C:\Users\sangfor\.m2\repository" />
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
         <option name="userSettingsFile" value="C:\Users\sangfor\.m2\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -42,13 +27,21 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/spring-rabbitmq-producers-basic" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\rabbitmq_test\rabbitmq-consumer-spring-advanced\src\main\resources" />
+      <recent name="D:\code\rabbitmq_test\rabbitmq-consumer-spring-advanced\src\main\java\com\baiqi\listener" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -59,6 +52,19 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -99,11 +105,25 @@
       <updated>1625219090972</updated>
       <workItem from="1625219092825" duration="1019000" />
       <workItem from="1625493473944" duration="5043000" />
+      <workItem from="1625556963491" duration="1064000" />
+      <workItem from="1625558121121" duration="549000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="masterDetails">
     <states>
