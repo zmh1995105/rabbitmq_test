@@ -114,7 +114,8 @@ public class ProducerTest {
 
          for (int i = 0; i < 10; i++) {
              // 发送消息
-             rabbitTemplate.convertAndSend("test_exchange_confirm", "confirm", "message confirm....");
+             rabbitTemplate.convertAndSend("test_exchange_confirm",
+                     "confirm", "message confirm....");
          }
 
      }
